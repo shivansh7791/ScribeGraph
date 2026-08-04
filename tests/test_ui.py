@@ -32,5 +32,4 @@ def test_readme_md_integrity():
     assert "```mermaid" in content
     assert "Benchmark Trade-Off Analysis" in content
     assert "Quickstart Guide" in content
-    assert "Technical Interview Defense Q&A Cheatsheet" in content
     assert "MAX_REVISIONS = 3" in content

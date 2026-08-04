@@ -135,9 +135,5 @@ LANGCHAIN_PROJECT=ScribeGraph
 
 ---
 
-
-
----
-
 ## 📜 License
 MIT License. Free for enterprise use and placement interview preparation.
