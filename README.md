@@ -135,22 +135,7 @@ LANGCHAIN_PROJECT=ScribeGraph
 
 ---
 
-## 🎯 Technical Interview Defense Q&A Cheatsheet
 
-### Q1: Why use LangGraph over traditional sequential chains or DAGs for ScribeGraph?
-> **Answer**: Complex real-world workflows require cyclic loops (e.g., Writer $\leftrightarrow$ Editor review cycles) and state persistence. LangGraph models multi-agent systems as State Graphs with explicit state channel reducers, non-linear conditional branching, time-travel debugging, and native event streaming.
-
-### Q2: How do you prevent infinite loops in ScribeGraph's cyclic agent architecture?
-> **Answer**: I implement a **Loop Guard** inside conditional edge router functions (`route_after_editor`). The Editor node increments `revision_count` in state. The router checks `revision_count < MAX_REVISIONS` (3). If `MAX_REVISIONS` is met, the router overrides rejection and forces routing to the final `fact_checker` node, bounding execution deterministically.
-
-### Q3: How do you enforce structured JSON output from LLMs in graph nodes?
-> **Answer**: I use LangChain's `.with_structured_output(PydanticModel)` method, which leverages native provider function calling / JSON Schema tools to enforce Pydantic v2 schemas (`ResearchOutput`, `EditorOutput`). This converts non-deterministic LLM text into validated Python objects with field constraint validation before touching graph state.
-
-### Q4: How do you track token usage and cost across multi-provider LLM calls?
-> **Answer**: I implemented a centralized `TelemetryTracker` utility. It normalizes provider-specific usage metadata from API responses into `(prompt_tokens, completion_tokens)`, cross-references unit pricing per 1,000 tokens from a `ModelPricing` catalog, calculates execution latency, and attaches step metrics to `state["metrics"][node_name]`.
-
-### Q5: How do you test multi-agent state graphs without incurring live API costs?
-> **Answer**: Nodes accept an optional `llm` argument for dependency injection (`researcher_node(state, llm=mock_llm)`). In test suites (`tests/test_graph.py`), we inject mock LLM instances returning predefined Pydantic output objects, verifying state transitions, routing logic, and telemetry math in milliseconds without network calls.
 
 ---
 
