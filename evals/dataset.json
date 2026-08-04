@@ -1,0 +1,57 @@
+[
+  {
+    "id": "eval_001",
+    "topic": "Designing Distributed Caching with Redis",
+    "ground_truth_facts": [
+      "Redis is predominantly single-threaded for command execution using an I/O multiplexing event loop.",
+      "Cache-Aside pattern requires reading from cache first, falling back to database, and writing to cache.",
+      "Eviction policies include LRU (Least Recently Used), LFU (Least Frequently Used), and TTL-based expiration.",
+      "Thundering herd problem occurs when multiple clients query DB simultaneously upon cache miss/expiration."
+    ],
+    "target_audience": "Senior & Staff Engineers"
+  },
+  {
+    "id": "eval_002",
+    "topic": "Event-Driven Architecture with Apache Kafka",
+    "ground_truth_facts": [
+      "Kafka organizes events into topics partitioned across cluster brokers for horizontal scalability.",
+      "Consumer groups enable parallel processing while guaranteeing ordered event consumption per partition.",
+      "Replication factor ensures fault tolerance by replicating topic partitions across leader and follower nodes.",
+      "At-least-once delivery guarantees require idempotent consumer processing to prevent duplicate operations."
+    ],
+    "target_audience": "Senior & Staff Engineers"
+  },
+  {
+    "id": "eval_003",
+    "topic": "Database Sharding & Horizontal Partitioning Strategies",
+    "ground_truth_facts": [
+      "Sharding distributes database rows across distinct database instances using a shard key.",
+      "Consistent Hashing minimizes key remapping during cluster node scale-out or scale-in events.",
+      "Cross-shard JOIN operations are computationally expensive and generally avoided in high-throughput architectures.",
+      "Distributed transactions across shards require 2-Phase Commit (2PC) or Saga pattern to maintain consistency."
+    ],
+    "target_audience": "Senior & Staff Engineers"
+  },
+  {
+    "id": "eval_004",
+    "topic": "CAP Theorem & Distributed Consistency Models",
+    "ground_truth_facts": [
+      "CAP theorem states a distributed system can simultaneously provide at most two of Consistency, Availability, and Partition Tolerance.",
+      "PACELC theorem extends CAP by stating: If Partition, choose Availability or Consistency; Else, choose Latency or Consistency.",
+      "Strong Consistency (Linearizability) guarantees all reads return the latest written value.",
+      "Eventual Consistency guarantees all replicas converge to identical state given no new updates."
+    ],
+    "target_audience": "Senior & Staff Engineers"
+  },
+  {
+    "id": "eval_005",
+    "topic": "Rate Limiting Algorithms & API Gateway Architecture",
+    "ground_truth_facts": [
+      "Token Bucket algorithm allows bursty traffic up to bucket capacity while refilling tokens at fixed rate.",
+      "Leaky Bucket algorithm processes requests at a constant output rate regardless of incoming traffic spikes.",
+      "Sliding Window Log algorithm provides high precision rate limiting but incurs higher memory overhead.",
+      "API Gateways use Redis or memcached as centralized atomic counters for distributed rate limiting."
+    ],
+    "target_audience": "Senior & Staff Engineers"
+  }
+]

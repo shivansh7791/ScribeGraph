@@ -1,0 +1,30 @@
+# Environment variables and API Keys (CRITICAL: DO NOT COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Telemetry Reports & Logs
+telemetry_report.json
+*.log
+
+# Streamlit Local Config
+.streamlit/
+
+# macOS system files
+.DS_Store

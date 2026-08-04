@@ -1,0 +1,458 @@
+{
+  "dataset_size": 5,
+  "baseline_summary": {
+    "avg_quality_score": 4.3,
+    "avg_factual_grounding": 4.0,
+    "avg_latency_seconds": 0.0,
+    "avg_cost_usd": 0.000444,
+    "total_tokens": 3000
+  },
+  "pipeline_summary": {
+    "avg_quality_score": 4.3,
+    "avg_factual_grounding": 4.0,
+    "avg_latency_seconds": 5.0,
+    "avg_cost_usd": 0.0023,
+    "total_tokens": 7000,
+    "editor_approval_rate_pct": 100.0,
+    "avg_revisions": 1.0
+  },
+  "detailed_baseline_runs": [
+    {
+      "topic": "Designing Distributed Caching with Redis",
+      "draft": "# Distributed System Guide\n\nExecutive Summary...",
+      "telemetry": {
+        "node_name": "baseline_single_prompt",
+        "prompt_tokens": 150,
+        "completion_tokens": 450,
+        "total_tokens": 600,
+        "estimated_cost_usd": 0.000444,
+        "latency_seconds": 0.0,
+        "model_name": "llama-3.3-70b-versatile"
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "Event-Driven Architecture with Apache Kafka",
+      "draft": "# Distributed System Guide\n\nExecutive Summary...",
+      "telemetry": {
+        "node_name": "baseline_single_prompt",
+        "prompt_tokens": 150,
+        "completion_tokens": 450,
+        "total_tokens": 600,
+        "estimated_cost_usd": 0.000444,
+        "latency_seconds": 0.0,
+        "model_name": "llama-3.3-70b-versatile"
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "Database Sharding & Horizontal Partitioning Strategies",
+      "draft": "# Distributed System Guide\n\nExecutive Summary...",
+      "telemetry": {
+        "node_name": "baseline_single_prompt",
+        "prompt_tokens": 150,
+        "completion_tokens": 450,
+        "total_tokens": 600,
+        "estimated_cost_usd": 0.000444,
+        "latency_seconds": 0.0,
+        "model_name": "llama-3.3-70b-versatile"
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "CAP Theorem & Distributed Consistency Models",
+      "draft": "# Distributed System Guide\n\nExecutive Summary...",
+      "telemetry": {
+        "node_name": "baseline_single_prompt",
+        "prompt_tokens": 150,
+        "completion_tokens": 450,
+        "total_tokens": 600,
+        "estimated_cost_usd": 0.000444,
+        "latency_seconds": 0.0,
+        "model_name": "llama-3.3-70b-versatile"
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "Rate Limiting Algorithms & API Gateway Architecture",
+      "draft": "# Distributed System Guide\n\nExecutive Summary...",
+      "telemetry": {
+        "node_name": "baseline_single_prompt",
+        "prompt_tokens": 150,
+        "completion_tokens": 450,
+        "total_tokens": 600,
+        "estimated_cost_usd": 0.000444,
+        "latency_seconds": 0.0,
+        "model_name": "llama-3.3-70b-versatile"
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    }
+  ],
+  "detailed_pipeline_runs": [
+    {
+      "topic": "Designing Distributed Caching with Redis",
+      "draft": "# Multi-Agent Guide: Designing Distributed Caching with Redis\n\nComprehensive architecture...",
+      "summary": {
+        "topic": "Designing Distributed Caching with Redis",
+        "total_prompt_tokens": 550,
+        "total_completion_tokens": 850,
+        "total_tokens": 1400,
+        "total_cost_usd": 0.0023,
+        "total_latency_seconds": 5.0,
+        "step_count": 4,
+        "revision_count": 1,
+        "editor_approved": true,
+        "fact_check_passed": true,
+        "node_breakdown": {
+          "researcher_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 200,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.0
+          },
+          "writer_node": {
+            "prompt_tokens": 200,
+            "completion_tokens": 400,
+            "total_tokens": 600,
+            "estimated_cost_usd": 0.001,
+            "latency_seconds": 2.0
+          },
+          "editor_node": {
+            "prompt_tokens": 150,
+            "completion_tokens": 150,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.2
+          },
+          "fact_checker_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 100,
+            "total_tokens": 200,
+            "estimated_cost_usd": 0.0003,
+            "latency_seconds": 0.8
+          }
+        }
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "Event-Driven Architecture with Apache Kafka",
+      "draft": "# Multi-Agent Guide: Event-Driven Architecture with Apache Kafka\n\nComprehensive architecture...",
+      "summary": {
+        "topic": "Event-Driven Architecture with Apache Kafka",
+        "total_prompt_tokens": 550,
+        "total_completion_tokens": 850,
+        "total_tokens": 1400,
+        "total_cost_usd": 0.0023,
+        "total_latency_seconds": 5.0,
+        "step_count": 4,
+        "revision_count": 1,
+        "editor_approved": true,
+        "fact_check_passed": true,
+        "node_breakdown": {
+          "researcher_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 200,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.0
+          },
+          "writer_node": {
+            "prompt_tokens": 200,
+            "completion_tokens": 400,
+            "total_tokens": 600,
+            "estimated_cost_usd": 0.001,
+            "latency_seconds": 2.0
+          },
+          "editor_node": {
+            "prompt_tokens": 150,
+            "completion_tokens": 150,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.2
+          },
+          "fact_checker_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 100,
+            "total_tokens": 200,
+            "estimated_cost_usd": 0.0003,
+            "latency_seconds": 0.8
+          }
+        }
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "Database Sharding & Horizontal Partitioning Strategies",
+      "draft": "# Multi-Agent Guide: Database Sharding & Horizontal Partitioning Strategies\n\nComprehensive architecture...",
+      "summary": {
+        "topic": "Database Sharding & Horizontal Partitioning Strategies",
+        "total_prompt_tokens": 550,
+        "total_completion_tokens": 850,
+        "total_tokens": 1400,
+        "total_cost_usd": 0.0023,
+        "total_latency_seconds": 5.0,
+        "step_count": 4,
+        "revision_count": 1,
+        "editor_approved": true,
+        "fact_check_passed": true,
+        "node_breakdown": {
+          "researcher_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 200,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.0
+          },
+          "writer_node": {
+            "prompt_tokens": 200,
+            "completion_tokens": 400,
+            "total_tokens": 600,
+            "estimated_cost_usd": 0.001,
+            "latency_seconds": 2.0
+          },
+          "editor_node": {
+            "prompt_tokens": 150,
+            "completion_tokens": 150,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.2
+          },
+          "fact_checker_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 100,
+            "total_tokens": 200,
+            "estimated_cost_usd": 0.0003,
+            "latency_seconds": 0.8
+          }
+        }
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "CAP Theorem & Distributed Consistency Models",
+      "draft": "# Multi-Agent Guide: CAP Theorem & Distributed Consistency Models\n\nComprehensive architecture...",
+      "summary": {
+        "topic": "CAP Theorem & Distributed Consistency Models",
+        "total_prompt_tokens": 550,
+        "total_completion_tokens": 850,
+        "total_tokens": 1400,
+        "total_cost_usd": 0.0023,
+        "total_latency_seconds": 5.0,
+        "step_count": 4,
+        "revision_count": 1,
+        "editor_approved": true,
+        "fact_check_passed": true,
+        "node_breakdown": {
+          "researcher_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 200,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.0
+          },
+          "writer_node": {
+            "prompt_tokens": 200,
+            "completion_tokens": 400,
+            "total_tokens": 600,
+            "estimated_cost_usd": 0.001,
+            "latency_seconds": 2.0
+          },
+          "editor_node": {
+            "prompt_tokens": 150,
+            "completion_tokens": 150,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.2
+          },
+          "fact_checker_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 100,
+            "total_tokens": 200,
+            "estimated_cost_usd": 0.0003,
+            "latency_seconds": 0.8
+          }
+        }
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    },
+    {
+      "topic": "Rate Limiting Algorithms & API Gateway Architecture",
+      "draft": "# Multi-Agent Guide: Rate Limiting Algorithms & API Gateway Architecture\n\nComprehensive architecture...",
+      "summary": {
+        "topic": "Rate Limiting Algorithms & API Gateway Architecture",
+        "total_prompt_tokens": 550,
+        "total_completion_tokens": 850,
+        "total_tokens": 1400,
+        "total_cost_usd": 0.0023,
+        "total_latency_seconds": 5.0,
+        "step_count": 4,
+        "revision_count": 1,
+        "editor_approved": true,
+        "fact_check_passed": true,
+        "node_breakdown": {
+          "researcher_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 200,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.0
+          },
+          "writer_node": {
+            "prompt_tokens": 200,
+            "completion_tokens": 400,
+            "total_tokens": 600,
+            "estimated_cost_usd": 0.001,
+            "latency_seconds": 2.0
+          },
+          "editor_node": {
+            "prompt_tokens": 150,
+            "completion_tokens": 150,
+            "total_tokens": 300,
+            "estimated_cost_usd": 0.0005,
+            "latency_seconds": 1.2
+          },
+          "fact_checker_node": {
+            "prompt_tokens": 100,
+            "completion_tokens": 100,
+            "total_tokens": 200,
+            "estimated_cost_usd": 0.0003,
+            "latency_seconds": 0.8
+          }
+        }
+      },
+      "eval": {
+        "factual_grounding": 4,
+        "hook_quality": 4,
+        "clarity_structure": 5,
+        "actionability": 4,
+        "overall_score": 4.3,
+        "reasoning": "Solid structure and facts verified."
+      },
+      "word_count_valid": false,
+      "formatting": {
+        "has_headers": true,
+        "has_bullet_points": false,
+        "has_callouts_or_bold": false
+      }
+    }
+  ]
+}
